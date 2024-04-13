@@ -7,7 +7,7 @@
 
 ### Usage
 
-1. Download code, add images and corresponding depth maps in the folder "Imgs" in the main path and run the "main_depthanything.m".
+1. Download code, add images and corresponding depth maps in the folder "Imgs" in the main path and run the "main.m".
 
 2. This code has been tested on 64bit Windows; for other platforms, you'll need to compile your own mex files for "optimal_backward_mapping";
 
