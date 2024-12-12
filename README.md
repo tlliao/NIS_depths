@@ -1,9 +1,13 @@
-# Natural Image Stitching using Depth Maps ([paper]())
+# Natural Image Stitching using Depth Maps 
 
-<p align="center">Tianli Liao<sup>1</sup>, Nan Li<sup>2 *</sup></p>
+<!-- ([paper]()) -->
+
+<p align="center">Tianli Liao<sup>1</sup>, Nan Li<sup>2*</sup></p>
 <p align="center"><sup>1</sup>Henan University of Technology</p>
 <p align="center"><sup>2</sup>Shenzhen University</p>
 <p align="center"><sup>tianli.liao@haut.edu.cn, nan.li@szu.edu.cn</sup></p>
+
+![Pipeline](pipeline.png)
 
 ### Usage
 
@@ -14,10 +18,6 @@
 
 ### Citation
 
-This paper has been accepted by xxx. If you have any questions, please feel free to contact me.
-
-Tianli Liao -- tianli.liao@haut.edu.cn
-
 
 ```
 @article{liao2022natural,
@@ -27,3 +27,6 @@ Tianli Liao -- tianli.liao@haut.edu.cn
   year={2022}
 }
 ```
+
+
+If you have any questions, please feel free to contact me.

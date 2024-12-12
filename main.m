@@ -1,7 +1,7 @@
 clear; clc; 
 close all;
 
-run('../vlfeat-0.9.21/toolbox/vl_setup');
+run('vlfeat-0.9.21/toolbox/vl_setup');
 
 % Parameters of SIFT detection
 parameters.peakthresh = 0;
@@ -20,7 +20,6 @@ dir_folder=dir(strcat(pathname, imgs_format));
 if isempty(dir_folder)
     error('no input images found in this folder');
 end
-
 
 path1=sprintf('%s%s',pathname,dir_folder(1).name); % target image
 path2=sprintf('%s%s',pathname,dir_folder(2).name); % reference image
