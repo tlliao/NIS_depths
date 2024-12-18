@@ -2,8 +2,8 @@
 
 <!-- ([paper]()) -->
 
-<center>Tianli Liao<sup>1</sup>, Nan Li<sup>2*</sup></center>
-<center><sup>1</sup>Henan University of Technology,&emsp; <sup>2</sup>Shenzhen University</center>
+<p align=center>Tianli Liao<sup>1</sup>, Nan Li<sup>2*</sup></p>
+<p align=center><sup>1</sup>Henan University of Technology, <sup>2</sup>Shenzhen University</p>
 
 <br>
 
