@@ -2,14 +2,16 @@
 
 <!-- ([paper]()) -->
 
-<p align="center">Tianli Liao<sup>1</sup>, Nan Li<sup>2*</sup></p>
-<p align="center"><sup>1</sup>Henan University of Technology</p>
-<p align="center"><sup>2</sup>Shenzhen University</p>
-<p align="center"><sup>tianli.liao@haut.edu.cn, nan.li@szu.edu.cn</sup></p>
+<center>Tianli Liao<sup>1</sup>, Nan Li<sup>2*</sup></center>
+<center><sup>1</sup>Henan University of Technology,&emsp; <sup>2</sup>Shenzhen University</center>
+
+<br>
+
 
 ![Pipeline](pipeline.png)
 
 ### Usage
+---
 
 1. Download code, add images and corresponding depth maps in the folder "Imgs" in the main path and run the "main.m".
 
