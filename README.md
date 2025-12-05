@@ -22,11 +22,13 @@
 
 
 ```
-@article{liao2022natural,
+@article{liao2025natural,
   title={Natural image stitching using depth maps},
   author={Liao, Tianli and Li, Nan},
-  journal={arXiv preprint arXiv:2202.06276},
-  year={2022}
+  journal={Signal Processing: Image Communication},
+  pages={117438},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
