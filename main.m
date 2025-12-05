@@ -1,12 +1,6 @@
 clear; clc; 
 close all;
 
-run('vlfeat-0.9.21/toolbox/vl_setup');
-
-% Parameters of SIFT detection
-parameters.peakthresh = 0;
-parameters.edgethresh = 500;
-
 % % Parameters of RANSAC via fundamental matrix
 parameters.minPtNum = 6;    % minimal number for model fitting
 parameters.iterNum = 2000;  % maximum number of trials
@@ -36,7 +30,7 @@ depth_img2(depth_img2==inf)=1e4;
 %-------------
 img1 = im2double(imread(path1));   img2 = im2double(imread(path2));    
 %% detect and match sift features and line features
-[pts1, pts2] = siftMatch(img1, img2, parameters); 
+[pts1, pts2] = siftMatch(img1, img2); 
 
 %% depth-based RANSAC
 [matches1, matches2]=fundRANSAC(pts1, pts2, depth_img1, parameters); % feature ransac via fundamental matrix
